@@ -14,6 +14,7 @@
 - **Newer customers are at highest risk** — churned customers average 17.9 months of tenure vs. 37.5 months for retained customers.
 - **Lack of technical support nearly triples churn risk** — 41.6% churn without it vs. 15.1% with it, a stronger effect than streaming add-ons.
 - **Pricing plays a smaller role** — churned customers pay modestly more on average ($74.44 vs. $61.27/month).
+- 📊 **[View the full SQL analysis with query-by-query results →](./sql-analysis/query_results.md)**
 
 ## Project Structure
 
