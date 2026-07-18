@@ -6,7 +6,7 @@
 
 ## Dashboard
 
-![Churn Dashboard](./dashboard/screenshots/dashboard_overview.png)
+![Churn Dashboard](dashboard/screenshots/dashboard_overview.png)
 
 ## Top Findings
 
