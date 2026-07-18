@@ -24,5 +24,5 @@
 
 ## Methodology
 
-Data cleaned by converting `TotalCharges` to numeric and dropping resulting missing rows (11 rows removed). Findings validated with SQL and visualized in Power BI. Dataset: [IBM Telco Customer Churn](https://www.kaggle.com) (Kaggle).
+Data cleaned by converting `TotalCharges` to numeric and dropping resulting missing rows (11 rows removed). Findings validated with SQL and visualized in Power BI. Dataset: [IBM Telco Customer Churn]([https://www.kaggle.com](https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download)) (Kaggle).
 
