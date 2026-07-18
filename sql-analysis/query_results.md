@@ -123,6 +123,4 @@ GROUP BY Churn;
 1. **Contract length is the biggest churn driver** — month-to-month customers churn at roughly 15x the rate of two-year contract customers.
 2. **New customers are at the highest risk** — churned customers have less than half the average tenure of retained customers.
 3. **Lack of tech support is strongly associated with churn** — customers without it churn at nearly 3x the rate of those with it, a much stronger effect than streaming add-ons show.
-4. **Pricing plays a smaller, secondary role** — churned customers pay somewhat more on average, but the difference is modest compared to the contract and tech-support effects above.
-
-These findings feed directly into the [executive summary](./executive_summary.pdf) and the [Power BI dashboard](./dashboard/).
+4. **Pricing plays a smaller, secondary role** — churned customers pay somewhat more on average, but the difference is modest compared to the contract and tech-support effects above
