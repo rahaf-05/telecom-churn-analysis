@@ -18,7 +18,7 @@ SELECT Contract, Churn, COUNT(*) AS customer_count
 FROM telco_churn_cleaned
 GROUP BY Contract, Churn;
 ```
-![Churn counts by contract type](./screenshots/01_churn_by_contract_counts.png)
+<img src="./screenshots/01_churn_by_contract_counts.png" width="40%">
 
 **Query — churn rate (%) by contract type:**
 ```sql
@@ -28,7 +28,9 @@ SELECT
 FROM telco_churn_cleaned
 GROUP BY Contract;
 ```
-![Churn rate by contract type](./screenshots/02_churn_rate_by_contract.png)
+<img src="./screenshots/02_churn_rate_by_contract.png" width="40%">
+
+
 
 **Finding:** The longer the contract, the lower the churn rate — **Month-to-month: 42.71%**, **One year: 11.27%**, **Two year: 2.83%**. Contract length is the single strongest pattern in this dataset.
 
@@ -42,7 +44,8 @@ SELECT Churn, AVG(tenure) AS avg_tenure
 FROM telco_churn_cleaned
 GROUP BY Churn;
 ```
-![Average tenure by churn status](./screenshots/03_avg_tenure_by_churn.png)
+<img src="./screenshots/03_avg_tenure_by_churn.png" width="40%">
+
 
 **Finding:** Customers who stayed average **37.6 months** of tenure; customers who churned average only **17.9 months**. Newer customers churn far more than long-term customers.
 
@@ -56,7 +59,8 @@ SELECT TechSupport, Churn, COUNT(*) AS customer_count
 FROM telco_churn_cleaned
 GROUP BY TechSupport, Churn;
 ```
-![Tech support churn counts](./screenshots/04_techsupport_churn_counts.png)
+<img src="./screenshots/04_techsupport_churn_counts.png" width="40%">
+
 
 **Tech Support — churn rate (%):**
 ```sql
@@ -66,7 +70,8 @@ SELECT
 FROM telco_churn_cleaned
 GROUP BY TechSupport;
 ```
-![Churn rate by tech support](./screenshots/05_churn_rate_by_techsupport.png)
+<img src="./screenshots/05_churn_rate_by_techsupport.png" width="40%">
+
 
 **Finding:** Customers **without** tech support churn far more (**41.64%**) than those **with** tech support (**15.17%**). Customers with no internet service at all churn least (**7.4%**), since they have fewer things to be dissatisfied with in the first place.
 
@@ -78,7 +83,8 @@ SELECT
 FROM telco_churn_cleaned
 GROUP BY StreamingTV;
 ```
-![Churn rate by StreamingTV](./screenshots/06_churn_rate_by_streamingtv.png)
+<img src="./screenshots/06_churn_rate_by_streamingtv.png" width="40%">
+
 
 **Streaming Movies — churn rate (%):**
 ```sql
@@ -88,7 +94,8 @@ SELECT
 FROM telco_churn_cleaned
 GROUP BY StreamingMovies;
 ```
-![Churn rate by StreamingMovies](./screenshots/07_churn_rate_by_streamingmovies.png)
+<img src="./screenshots/07_churn_rate_by_streamingmovies.png" width="40%">
+
 
 **Finding:** Streaming TV and Streaming Movies show a much smaller gap than tech support does — roughly 30-34% churn regardless of whether the customer has the service, versus 7.4% for customers with no internet service at all. **Tech support has the strongest relationship with churn** among the three add-ons tested; streaming services show only a small effect by comparison.
 
@@ -104,7 +111,8 @@ SELECT
 FROM telco_churn_cleaned
 GROUP BY Churn;
 ```
-![Average monthly charges by churn status](./screenshots/08_avg_charges_by_churn.png)
+<img src="./screenshots/08_avg_charges_by_churn.png" width="40%">
+
 
 **Finding:** Customers who churn pay slightly more on average (**$74.44/month**) than customers who stay (**$61.27/month**). The gap exists but is fairly modest, not a dramatic difference.
 
